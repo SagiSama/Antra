@@ -100,19 +100,24 @@ ON co.ProductID = cl.ProductID
         --Join them and produce a result set similar to the following.
     --Country                        Province
 
-SELECT c.Name AS Country, p.Name AS Provence
-FROM Person.Person AS p
-JOIN Person.Address AS a
-ON
+SELECT cnreg.Name AS Country, stPro.Name AS Provence
+FROM Person.Person AS person
+JOIN Person.BusinessEntity AS busEnt
+ON person.BusinessEntityID = busEnt.BusinessEntityID
 
-JOIN Person.CountryRegion AS c
-ON c.CountryRegionCode = p.
-JOIN Person.StateProvince AS s
-ON s.CountryRegionCode = c.CountryRegionCode
+JOIN Person.BusinessEntityAddress AS busEntAdr
+ON busEnt.BusinessEntityID = busEntAdr.BusinessEntityID
 
-select * from Person.Person
-select * from Person.CountryRegion
-select * from  Person.StateProvince
+JOIN Person.Address AS adr
+ON adr.AddressID = busEntAdr.AddressID
+
+JOIN Person.StateProvince AS stPro
+ON stPro.StateProvinceID = adr.StateProvinceID
+
+JOIN Person.CountryRegion AS cnreg
+ON cnreg.CountryRegionCode = stPro.CountryRegionCode
+
+
 -- 13.  Write a query that lists the country and province names from person. CountryRegion and person. StateProvince tables and 
         --list the countries filter them by Germany and Canada. Join them and produce a result set similar to the following.
     --Country                        Province
