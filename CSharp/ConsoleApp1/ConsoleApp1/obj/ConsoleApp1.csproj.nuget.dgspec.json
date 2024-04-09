@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/a47/Program/CSharp/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {}
+    "/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {}
   },
   "projects": {
-    "/Users/a47/Program/CSharp/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {
+    "/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/a47/Program/CSharp/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+        "projectUniqueName": "/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "/Users/a47/Program/CSharp/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+        "projectPath": "/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
         "packagesPath": "/Users/a47/.nuget/packages/",
-        "outputPath": "/Users/a47/Program/CSharp/ConsoleApp1/ConsoleApp1/obj/",
+        "outputPath": "/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/ConsoleApp1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/a47/.nuget/NuGet/NuGet.Config"
