@@ -1,0 +1,47 @@
+Understanding Data Types
+Test your Knowledge
+1. What type would you choose for the following “numbers”?
+A person’s telephone number - StringBuilder
+A person’s height - float
+A person’s age    - sbyte
+A person’s gender (Male, Female, Prefer Not To Answer) - byte (-1 male, 1 female, 0 prefer not to answer)
+A person’s salary - decimal
+A book’s ISBN     - String
+A book’s price    - decimal
+A book’s shipping weight - uint
+A country’s population - uint
+The number of stars in the universe - ulong
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business) - ushort
+2. What are the difference between value type and reference type variables? What is
+boxing and unboxing?
+- 1. Value type will directly hold the value while the reference type will hold the memory address or reference for this value.
+  2.Value types are stored in stack memory and reference types are stored in heap memory.
+  3.Value type will not be collected by garbage collector but reference type will be collected by the garbage collector. 
+  4.The value types can be created by struct, enum while reference type can be created by class, interface, delegate or array.
+  5.Value type can no accept any null values while reference types can accept null values. 
+3. What is meant by the terms managed resource and unmanaged resource in .NET
+- Managed resource is C# garage collector automatically handles in case of no reference to the object and garbage collected,
+  but unmanaged resource does not handled by CLR, so developers need to handle it.
+4. Whats the purpose of Garbage Collector in .NET?
+- to free up memory space. deleting unused object automatically.
+
+Controlling Flow and Converting Types
+Test your Knowledge
+1. What happens when you divide an int variable by 0? - EXCEPTION #1/1 [DivideByZeroException], Message = “Attempted to divide by zero.
+2. What happens when you divide a double variable by 0? - ∞ (infinite number)
+3. What happens when you overflow an int variable, that is, set it to a value beyond its range? - The operation overflows at compile time in checked mode
+4. What is the difference between x = y++; and x = ++y;? 
+- x = y++ is will not increment x variable because it assign first then increment y by 1, x = ++y increments y by one and assign it to the x so incremented.
+5. What is the difference between break, continue, and return when used inside a loop statement?
+- break will stop running loop, continue starts a new next step of loop, return will return directly terminating the loop;
+6. What are the three parts of a for statement and which of them are required?
+- initialization, condition, and advancement = for(initialization, condition, advancement) => for(int i = 0; i < 10; i++)
+  condition is required it is the condition to stop loop = for(; condition;), etc => int i = 0; for(; i < 10;) {i++}
+7. What is the difference between the = and == operators? - '=' assignment value but '==' is comparison that returns true/false
+8. Does the following statement compile? for ( ; true; ) ; - yes
+9. What does the underscore _ represent in a switch expression?
+ - The underscore (_) symbol represents the default case in switch expressions, functioning similarly to the 
+   default block in traditional switch statements.
+10. What interface must an object implement to be enumerated over by using the foreach statement?
+- IEnumerable interface permits enumeration by using a foreach loop.
