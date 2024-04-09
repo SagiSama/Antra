@@ -1,6 +1,7 @@
 02 Arrays and Strings
 1. When to use String vs. StringBuilder in C# ?
-2. What is the base class for all arrays in C#?
+2. What is the base class for all arrays in C#? 
+- String is immutable in C#. In case to want to modify a string, use a StringBuilder.
 3. How do you sort an array in C#?
 4. What property of an array object can be used to get the total number of elements in
 an array?
