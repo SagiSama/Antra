@@ -1,0 +1,15 @@
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/bin/Debug/net8.0/Day2
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/bin/Debug/net8.0/Day2.deps.json
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/bin/Debug/net8.0/Day2.runtimeconfig.json
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/bin/Debug/net8.0/Day2.dll
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/bin/Debug/net8.0/Day2.pdb
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/Day2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/Day2.AssemblyInfoInputs.cache
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/Day2.AssemblyInfo.cs
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/Day2.csproj.CoreCompileInputs.cache
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/Day2.sourcelink.json
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/Day2.dll
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/refint/Day2.dll
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/Day2.pdb
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/Day2.genruntimeconfig.cache
+/Users/a47/Program/GitHub/Antra/CSharp/ConsoleApp1/Day2/obj/Debug/net8.0/ref/Day2.dll
